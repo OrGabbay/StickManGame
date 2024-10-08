@@ -6,6 +6,7 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/2D High Quality pack  2 stickmans  23 weapons  working systems 
+      + more/Scenes/Demo.unity
+    guid: 2805634c54820a348b9cf8663fe067f2
   m_configObjects: {}
