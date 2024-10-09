@@ -26,16 +26,16 @@ public class PlayerMovement : MonoBehaviour {
 
 
 		
-		if (Input.GetButtonDown("Jump"))
+		if (Input.GetKeyDown(KeyCode.W))
 		{
 			jump = true;
 			animator.SetBool("Jump", true);
 		}
 
-		if (Input.GetButtonDown("Crouch"))
+		if (Input.GetKeyDown(KeyCode.C))
 		{
 			crouch = true;
-		} else if (Input.GetButtonUp("Crouch"))
+		} else if (Input.GetKeyUp(KeyCode.C))
 		{
 			crouch = false;
 		}
