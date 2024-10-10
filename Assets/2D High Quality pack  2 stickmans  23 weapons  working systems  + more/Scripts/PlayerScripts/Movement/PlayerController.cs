@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour
 			} else
 			{
 				
-				if (m_CrouchDisableCollider != null)
+				if (m_CrouchDisableCollider == null)
 					m_CrouchDisableCollider.enabled = true;
 
 				if (m_wasCrouching)
